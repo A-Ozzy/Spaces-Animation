@@ -209,8 +209,7 @@ gsap.from('.tariffs__animate', {
 gsap.from('.reliable__image', {
   scrollTrigger: {
     trigger: '.reliable',
-    start: 'bottom 100%',
-    markers: true
+    start: 'bottom 100%'
   },
   yPercent: 120,
 })
